@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;  
+    padding: 8px 100px ;  
+    position:sticky;
+    top: 0px;
+    box-shadow: 0px 3px 7px 2px rgba(183, 183, 183, 0.438);
+    background-color: white;
+    align-items: center;
+    letter-spacing: 5px;
+    font-weight:500;
+    font-size:medium;
+}
+.nav{
+    z-index: 1000;
+}
+
+.navul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+   
+.navul a{
+    color: black;
+    text-decoration: none;
+    padding:8px 16px ;
+}
+.navul a:hover{
+    background-color:rgba(183, 183, 183, 0.438) ;
+    padding: 8px 16px;
+}
+.nav .h3:hover{
+  
+    background-color:rgba(183, 183, 183, 0.438) ;
+    padding: 8px 16px;
+}
+.nav .h3 span{
+    font-weight: 100;
+}
+.nav .h3{
+    padding: 8px 16px;
+}
+/* project main section */
+/* .mainsection{ */
+    /* background-image: url(imgs/architect.jpg); */
+    /* height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+} */
+ .mainsection{
+    position: relative;
+ }
+ .mainsection img{
+    width: 1263px;
+    height: 673px;
+ }
+
+.mainsection .h1{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    display: flex;
+    font-size: 36px;
+    color: white;
+
+}
+.mainsection .h1{
+    font-weight: 100;
+    letter-spacing: 5px;
+    align-items: center;
+}
+.mainsection .h1 span{
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.817);
+    padding: 8px 16px;
+}
+
+/* project  page */
+.abouth1{
+padding: 32px 40px;
+}
+.abouth1h1{
+    font-weight:100;
+    font-size: 30px;
+    margin: 10px 0px;
+    padding: 16px 0px;
+}
+
+
+/* projects */
+
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:15px ;
+}
+
+.projects .project-card{
+    width: 287px;
+    height: 191px;
+    position: relative;
+}
+
+.projects .project-card img{
+    width: 100%;
+    height: 100%;
+}
+
+.projects .project-card p{
+    background-color: black;
+    color: #ffff;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* About page */
+.aboutsection{
+    padding: 32px 16px;
+}
+.aboutsection p{
+    margin: 0px 25px;
+   
+}
+
+.abouth12{
+    margin: 10px 25px;
+    padding:16px 0px ;
+    font-size: 30px;
+    align-items: left;
+}
+
+
+
+/* science section */
+.sciman img{
+    filter: grayscale(70%);
+}
+
+
+
+.mainscimen{
+    margin: 10px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.sciman img{
+    width:287px;
+    height:191px;
+}
+
+.sciman h1{
+    width:287px;
+    height:36px;
+    margin: 10px 0px;
+}
+
+.sciman .p1{
+    width:287px;
+    height:22px;
+    margin: 10px 0px;
+   
+}
+.sciman .p2{
+    width:287px;
+    height:67px;
+    margin: 10px 0px;
+   
+}
+
+.sciman button{
+    width:287px;
+    height:38px;
+    margin: 10px 0px;
+    border: none;
+    font-size: 20px;
+}
+.sciman button:hover{ 
+    background-color:rgba(183, 183, 183, 0.438);
+   }
+
+
+/* contect section */
+.contact{
+    padding: 32px 16px;
+    margin: 10px 25px;
+    font-size: 24px;
+    font-weight: 100;
+}
+.contact h2{
+    padding: 16px 0px;
+}
+.contact p{
+    font-size: medium;
+}
+input{
+    height: 40px;
+    width: 100%;
+    padding: 0px 15px;
+    margin: 10px 0px;
+}
+
+.contact button{
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.contact button:hover{
+    background-color:rgb(128, 128, 128);
+}
+
+
+/* map */
+.map{
+    margin: 10px 25px;
+
+}
+.map img{
+    width: 1199px;
+    height: 674;
+}
+
+/* footer section */
+
+footer{
+    padding: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer a{
+    color: white;
+}
+.footer a:hover{
+    color: green;
+}
